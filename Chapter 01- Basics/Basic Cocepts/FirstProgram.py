@@ -1,0 +1,7 @@
+print("Hello World")
+print("Hammad Mustafa")
+print("My Name is Hammad.")
+print("My age is 18 Years old.")
+print("My Name is Hammad Mustafa.","I am 18 Years old.")
+print(12)
+print(45+67)
