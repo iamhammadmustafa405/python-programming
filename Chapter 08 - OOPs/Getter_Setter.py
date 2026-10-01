@@ -41,10 +41,22 @@
 # If we make variables private (hidden), we cannot access them directly from outside the class. So we use getters and setters to control how they are used.
 
 # Easy Python example
-# class Person:    def __init__(self, name, age):        self.__name = name   # private variable        self.__age = age     # private variable    # Getter method    def get_name(self):        return self.__name    # Setter method    def set_name(self, name):        self.__name = name
+# class Person:    def __init__(self, name, age):  
+#       self.__name = name   # private variable      
+#   self.__age = age     # private variable   
+#  # Getter method    \
+# def get_name(self):        
+# return self.__name   
+#  # Setter method    
+# def set_name(self, name):       
+#  self.__name = name
 
 # How it works
-# p = Person("Ali", 20)print(p.get_name())   # Getter → gives namep.set_name("Ahmed")   # Setter → changes nameprint(p.get_name())   # Now updated name
+# p = Person("Ali", 20)
+# print(p.get_name())   # Getter → gives name
+# p.set_name("Ahmed")   
+# # Setter → changes name
+# print(p.get_name())   # Now updated name
 # __________________________________________________________________________________________________________________________________________
 
 #                                                New Method (Pythonic Way)
@@ -78,10 +90,12 @@
 #     @property
 #     def name(self):
 #         return self.__name
+
 # Now you can use it like this:
 # p = Person("Ali")
 
 # print(p.name)   # calls getter automatically
+
 # 3. Adding Setter with @property
 
 # If you want to also allow updating the value:
@@ -108,6 +122,7 @@
 
 # print(p.name)
 # 4. Why @property is better
+
 # Looks like normal variable access
 # Cleaner and more readable
 # Still controls access (encapsulation)

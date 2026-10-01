@@ -27,17 +27,17 @@ class Student:
         self.marks = marks # -----> Instance/ Object Attributes
         print("Adding New Student to the Database.")
 
-    def hello(self):
+    def hello(self): # ----> class method
         print("Hey! I am Hammad Mustafa.")
 
-    def show_marks(self):
-        return self.marks   # MEthods
+    def show_marks(self): # ----> Instance Method
+        return self.marks   
     
 
-# s1= Student("Hammad",78)
-# print(s1.name)
-# print(s1.age,s1.marks)
-
+s1= Student("Hammad",78)
+print(s1.name)
+print(s1.age,s1.marks)
+print(s1.show_marks())
 # s2 = Student("Huzaifa",67)
 # print(s2.name)
 # print(s2.age,s2.marks)
@@ -86,7 +86,7 @@ class Student:
 #         self.name = name
 
 # c1= Student("Hammad")
-# del c1 # It deletes the object....
+# del c1 ----> # It deletes the object....
 # print(c1.name)
 
 

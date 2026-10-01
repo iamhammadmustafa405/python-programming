@@ -1,5 +1,4 @@
 # Case 01:
-
 a= 3
 b= 4
 txt= "Hammad"

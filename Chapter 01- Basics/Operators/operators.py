@@ -41,7 +41,7 @@ print( a==b or a!=b)
 # | Operator | Name        | Meaning                 |                   |
 # | -------- | ----------- | ----------------------- | ----------------- |
 # | `&`      | AND         | 1 if both bits are 1    |                   |
-# | `        | `           | OR                      | 1 if any bit is 1 |
+# | `|`      | OR             | 1 if any bit is 1 |
 # | `^`      | XOR         | 1 if bits are different |                   |
 # | `~`      | NOT         | Inverts bits            |                   |
 # | `<<`     | Left shift  | Shifts bits left        |                   |
@@ -220,4 +220,3 @@ print( a==b or a!=b)
 # * **Right Shift (`>>`)** → number **shrinks**
 # * **NOT (`~`)** → number becomes **negative**
 
-# If you want, I can give **practice questions**, **MCQs**, or **real-life uses** (graphics, permissions, fast math).

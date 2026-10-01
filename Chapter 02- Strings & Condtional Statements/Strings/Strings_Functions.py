@@ -1,12 +1,12 @@
-# String Functions.
+# # String Functions.
 # str= "hammad Mustafa"
-# # str = str.capitalize()
-# # print(str)
-# # print(str.endswith("afa"))
+# str = str.capitalize()
+# print(str)
+# print(str.endswith("afa"))
 
 # str= "I am Studying Python from apnacollege."
-# print(str.replace("Python","Java"))
-# print(str.find("Python"))
+# # print(str.replace("Python","Java"))
+# # print(str.find("Python")) # --> returns the index of the first character found.
 # print(str.count("m"))
 
 
@@ -47,7 +47,7 @@
 
 # ---
 
-# ## 2. Removing Spaces (Trimming)
+# ## 2. Removing Spaces (Trimming) -> v.imp
 
 # Used to remove unwanted spaces.
 
@@ -107,7 +107,7 @@
 
 # ---
 
-# ## 6. Split & Join
+# ## 6. Split & Join ---> most important
 
 # Used to break or connect strings.
 
@@ -180,13 +180,3 @@
 # ✔ Methods return **new values**
 # ✔ Original string stays same
 
-# ---
-
-# If you want:
-
-# * **Very short one-line explanations**
-# * **Practice questions**
-# * **Common mistakes**
-# * **Methods for beginners only**
-
-# tell me exactly what you want next.

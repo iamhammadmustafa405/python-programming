@@ -22,9 +22,9 @@
 # list.remove(5)
 # print(list.pop(3))
 # print(list)
-a = [1, 2]
-a.extend([3, 4])
-print(a)
+# a = [1, 2]
+# a.extend([3, 4])
+# print(a)
 # [1, 2, 3, 4]
 
 # Below are the **most important Python list methods**, with brief explanations and examples.
@@ -196,4 +196,3 @@ print(a)
 # | `reverse()` | Reverse list    |
 # | `copy()`    | Duplicate list  |
 
-# If needed, list practice questions or tricky examples can be provided.

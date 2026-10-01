@@ -28,3 +28,11 @@ info ={
     }
 }
 print(info["Subjects"]["Maths"])
+
+
+
+
+
+
+
+

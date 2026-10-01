@@ -174,13 +174,3 @@
 
 # **Python strings are immutable, ordered, iterable sequences of Unicode characters that support indexing, slicing, and many built-in methods.**
 
-# ---
-
-# If you want:
-
-# * **Short exam notes**
-# * **MCQs**
-# * **Practice coding questions**
-# * **Comparison with lists**
-
-# tell me what to do next.

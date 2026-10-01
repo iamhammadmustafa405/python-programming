@@ -7,7 +7,11 @@
 
 # Student.school_name = "XYZ School"
 
-# This updates the class attribute for all instances.
+# This updates the class attribute for all instances/objects.
+
+
+
+
 
 # 2. Using an Object (instance)
 # s1 = Student()
@@ -19,16 +23,33 @@
 # To actually change the class attribute via object:
 
 # s1.__class__.school_name = "XYZ School"
+
+
+
+
+
 # 3. Inside the Class (using instance method)
 # class Student:
 #     school_name = "ABC School"
 
 #     def change_school(self, new_name):
 #         Student.school_name = new_name
-# 4. Using setattr()
+
+
+
+
+
+
+# 4. Using setattr() ---> setattr(Class_name, "class_attribute_name","New_value")
 # setattr(Student, "school_name", "XYZ School")
 
 # This dynamically changes the class attribute.
+
+
+
+
+
+
 
 # 5. Using Class Reference (cls) indirectly
 
@@ -39,6 +60,7 @@
 
 #     def change_school(self, new_name):
 #         self.__class__.school_name = new_name
+
 # Key Insight
 # Best practice: Use class name or class methods
 # Avoid confusion: Changing via instance can create separate variables instead of updating the class
